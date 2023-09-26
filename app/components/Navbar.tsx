@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { ThemeButton } from './ThemeButton'
 
 export const Navbar = () => {
   return (
@@ -16,6 +17,7 @@ export const Navbar = () => {
 
 
         </Link>
+        <ThemeButton/>
 
     </div>
 
