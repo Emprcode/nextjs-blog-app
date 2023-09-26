@@ -7,14 +7,14 @@ import Link from 'next/link';
 const getData = async() => {
   const query = `*[_type == "post"]`
   const data = await client.fetch(query)
-
   return data;
 }
 
 
 const IndexPage =async () => {
 
-  const data = await getData() as Post[]
+  const data = (await getData()) as Post[];
+
   return (
     <div className='divide-y divide-gray-200 dark:divide-gray-700'>
       <div className='space-y-2 pt-6 pb-8 md:space-y-5'>
