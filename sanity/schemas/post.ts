@@ -6,17 +6,20 @@ export default {
         {
             name:"title",
             type:"string",
-            title:"Title",
+            title:"Title"
         },
         {
             name:"overview",
             type:"string",
-            title:"Overview",
+            title:"Overview"
         },
         {
             name:"slug",
             type:"slug",
             title:"Slug",
+          options:{
+            source:"title"
+          }
         },
         {
             name:"content",
@@ -24,8 +27,7 @@ export default {
             title:"Content",
             of:[
                 {
-                    type:"block",
-
+                    type:"block"
                 },
                 {
                     type:"image",
@@ -37,7 +39,9 @@ export default {
                         }
                     ]
                 }
+
             ]
         },
     ]
+
 }
