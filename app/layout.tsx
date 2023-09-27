@@ -8,7 +8,7 @@ import { Providers } from './components/Providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Blog By Emprcode',
+  title: 'Emprcode blog',
   description: 'Unlocking the Code: Where Software Meets Stories',
 }
 
