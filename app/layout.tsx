@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: "Emprcode blog",
   description: "Unlocking the Code: Where Software Meets Stories",
 };
-//this is the main code
 
 export default function RootLayout({
   children,
