@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Unlocking the Code: Where Software Meets Stories",
 };
 
-//blog for myself
+//new blog added
 export default function RootLayout({
   children,
 }: {
